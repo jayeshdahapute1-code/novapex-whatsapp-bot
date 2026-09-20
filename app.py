@@ -5,8 +5,8 @@ from flask import Flask, request
 app = Flask(__name__)
 
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN", "novapex_verify_2026")
-WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN", "")
-PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID", "")
+WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN", "2494554527558605")
+PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID", "540416625832520")
 GRAPH_API_VERSION = os.getenv("GRAPH_API_VERSION", "v23.0")
 
 
